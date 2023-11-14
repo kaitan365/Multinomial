@@ -64,3 +64,14 @@ All the simulations were run on a cluster of 50 CPU-cores (each is an Intel Xeon
 * We used Python 3.9.6 to run all the simulations. 
 
 * The execution times of scripts **scatter.py** and **qqplot.py** vary and can range from 2 minutes to 90 minutes. The specific duration depends on the values of $(n, p, K, q)$. Generally, running scripts with larger values of $(n, p, K, q)$ takes longer time. For example, running **scatter.py** with $(n, p, q) = (2000, 600, 1)$ takes approximately 2 minutes, while executing **qqplot.py** with $(n, p, K) = (6000, 1000, 4)$ takes around 90 minutes.
+
+
+## Citation
+```
+@article{tan2023multinomial,
+  title={Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions},
+  author={Tan, Kai and Bellec, Pierre C},
+  journal={arXiv preprint arXiv:2305.17825},
+  year={2023}
+}
+```
